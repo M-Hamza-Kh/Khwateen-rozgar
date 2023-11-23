@@ -1,0 +1,107 @@
+.single-job-grid-two .job-image > a > img{
+  width:30%;
+}
+.filter-advance{
+  margin-top:30px;
+}
+body.template-color-1 .single-job.style-two:hover{
+  background: #F7F7F6;
+}
+body.template-color-1 .single-job.style-two.active{
+  border-color: #C255A0;
+  border-bottom: 1px solid #C255A0;
+  background: #F7F7F6;
+}
+ul.nav.jl{
+  padding-left:15px;
+  padding-right:15px;
+}
+ul.nav.jl > li{
+  width:100%;
+  padding-bottom: 15px;
+}
+ul.nav.jl > li > span.active > div.single-job.style-two{
+  border-color: #C255A0;
+  border-bottom: 1px solid #C255A0;
+  background: #F7F7F6;
+}
+div.job-detail-content.bg_color--3{
+  border:1px solid #e5e5e5;
+}
+div.tab-content > div.active.show > div.job-detail-content.bg_color--3{
+  border-color:#C255A0;
+}
+.sticky-black.is-sticky{
+  .main-menu li a {
+    color:#fff;
+  }
+  .sub-menu li a{
+    color:#333;
+  }
+}
+.hero-item{
+  height:70vh;
+}
+.sidebar-job-share .job-share.candidate-action > ul > li > a{
+  padding-top:13px;
+  padding-bottom:13px;
+}
+.tab-content > div.tab-pane.active{
+  a.tab-close{
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    width: 24px;
+    height: 24px;
+    border-left: 1px solid #C255A0;
+    border-bottom: 1px solid #C255A0;
+    text-align: center;
+    line-height: 24px;
+  }
+}
+div#job-alert{
+  display:none;
+  border:1px solid #C255A0;
+  h4{
+    padding:15px;
+    border-bottom:1px solid #C255A0;
+    font-size:15px;
+  }
+  button.theme-btn-two{
+    font-size:14px;
+    padding:8px 10px;
+  }
+  p{
+    margin:15px;
+  }
+}
+div#job-alert.show{
+  display:block;
+}
+div.item.jp-author-action{
+  ul.social-icons{
+    list-style: none;
+    margin:0;
+    padding:0 15px;
+    li{
+      display: inline-block;
+      a{
+        font-size:22px;
+        padding:0 2px;
+      }
+      &:nth-child(1) a{
+        color:#3b5998;
+      }
+      &:nth-child(2) a{
+        color:#0e76a8;
+      }
+      &:nth-child(3) a{
+        color:#c4302b;
+      }
+
+    }
+  }
+}
+.mt--46 {
+  margin-top: -46px;
+}
